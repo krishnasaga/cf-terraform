@@ -1,4 +1,4 @@
-hashicorp/terraform:full
+FROM hashicorp/terraform:full
 
 COPY . .
 
