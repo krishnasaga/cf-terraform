@@ -2,4 +2,4 @@ FROM hashicorp/terraform:full
 
 COPY . .
 
-CMD ["terraform","plan"]
+CMD ["plan"]
