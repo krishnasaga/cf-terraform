@@ -4,4 +4,4 @@ COPY . .
 
 RUN terraform init
 
-CMD ["plan"]
+CMD ["apply"]
