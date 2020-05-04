@@ -1,7 +1,7 @@
 
 provider "aws" {
   region = "us-eat-1"
-  version = "~> 2.0"
+  required_version = "0.12.24"
 }
 
 resource "aws_s3_bucket" "b" {
