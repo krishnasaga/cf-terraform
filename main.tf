@@ -7,7 +7,7 @@ provider "aws" {
 variable STACK_NAME {}
 
 resource "aws_s3_bucket" "b" {
-  bucket = "${var.STACK_NAME}sagar474mytfbucke"
+  bucket = "${var.STACK_NAME}-sagar474mytfbucke"
   acl    = "private"
 
   tags = {
