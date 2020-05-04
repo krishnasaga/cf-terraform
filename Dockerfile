@@ -4,4 +4,4 @@ COPY . .
 
 RUN terraform init
 
-CMD ["apply"]
+CMD ["apply","-auto-approve"]
